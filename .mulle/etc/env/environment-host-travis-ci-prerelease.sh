@@ -431,3 +431,21 @@ export MULLE_OBJC_HTTP_FOUNDATION_URL="https://github.com/MulleWeb/MulleObjCHTTP
 export MULLE_OBJC_HTTP_FOUNDATION_BRANCH="prerelease"
 
 
+#
+# MulleFoundation nodetype: ${MULLE_FOUNDATION_NODETYPE:-tar}
+#
+export MULLE_FOUNDATION_NODETYPE="git"
+
+
+#
+# MulleFoundation url: ${MULLE_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleFoundation/archive/${MULLE_TAG}.tar.gz}
+#
+export MULLE_FOUNDATION_URL="https://github.com/MulleFoundation/MulleFoundation.git"
+
+
+#
+# MulleFoundation branch: ${MULLE_FOUNDATION_BRANCH}
+#
+export MULLE_FOUNDATION_BRANCH="prerelease"
+
+
