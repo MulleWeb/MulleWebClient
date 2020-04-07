@@ -40,7 +40,7 @@
 
 // returns nil if something fails, check NSError for clues
 // [NSError mulleCurrentError]
-- (id) JSONContentsOfURL:(NSURL *) url;
-
++ (id) JSONContentsOfURL:(NSURL *) url;
++ (id) JSONContentsOfURLWithString:(NSString *) urlString;
 
 @end

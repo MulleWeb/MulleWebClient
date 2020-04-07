@@ -42,7 +42,7 @@
 
 @implementation MulleCurl( JSON)
 
-- (id) JSONContentsOfURL:(NSURL *) url
++ (id) JSONContentsOfURLWithString:(NSString *) urlString
 {
    MulleCurl      *curl;
    NSDictionary   *headers;
@@ -56,7 +56,13 @@
 
    [curl setRequestHeaders:headers];
 
-   return( [curl parseContentsOfURL:url]);
+   return( [curl parseContentsOfURLWithString:urlString]);
+}
+
+
++ (id) JSONContentsOfURL:(NSURL *) url
+{
+   return( [self JSONContentsOfURLWithString:[url stringValue]]);
 }
 
 @end
