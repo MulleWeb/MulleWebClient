@@ -1,6 +1,6 @@
 # MulleWebClient
 
-#### 🕷 Web client library based on the MulleFoundation
+#### 🕷 Web client library for mulle-objc
 
 This is a small Web client library written for the MulleFoundation.
 
