@@ -12,8 +12,12 @@
 #ifndef _MulleWebClient_import_private_h__
 #define _MulleWebClient_import_private_h__
 
-#include "_MulleWebClient-include-private.h"
-
 /* no headers */
+
+#ifdef __has_include
+# if __has_include( "_MulleWebClient-include.h")
+#  include "_MulleWebClient-include-private.h"
+# endif
+#endif
 
 #endif

@@ -13,42 +13,66 @@
 #define _MulleWebClient_import_h__
 
 // How to tweak the following MulleCurl #import
-//    remove:          `mulle-sourcetree mark MulleCurl no-header`
-//    rename:          `mulle-sourcetree mark MulleCurl set include whatever.h`
-//    toggle #import:  `mulle-sourcetree mark MulleCurl [no-]import`
-//    toggle public:   `mulle-sourcetree mark MulleCurl [no-]public`
-//    toggle optional: `mulle-sourcetree mark MulleCurl [no-]require`
-//    remove for os:   `mulle-sourcetree mark MulleCurl no-os-<osname>`
-# import <MulleCurl/MulleCurl.h>   // MulleCurl
+//    remove:             `mulle-sourcetree mark MulleCurl no-header`
+//    rename:             `mulle-sde dependency|library set MulleCurl include whatever.h`
+//    toggle #import:     `mulle-sourcetree mark MulleCurl [no-]import`
+//    toggle localheader: `mulle-sourcetree mark MulleCurl [no-]localheader`
+//    toggle public:      `mulle-sourcetree mark MulleCurl [no-]public`
+//    toggle optional:    `mulle-sourcetree mark MulleCurl [no-]require`
+//    remove for os:      `mulle-sourcetree mark MulleCurl no-os-<osname>`
+# if defined( __has_include) && __has_include("MulleCurl.h")
+#   import "MulleCurl.h"   // MulleCurl
+# else
+#   import <MulleCurl/MulleCurl.h>   // MulleCurl
+# endif
 
 // How to tweak the following MulleObjCInetFoundation #import
-//    remove:          `mulle-sourcetree mark MulleObjCInetFoundation no-header`
-//    rename:          `mulle-sourcetree mark MulleObjCInetFoundation set include whatever.h`
-//    toggle #import:  `mulle-sourcetree mark MulleObjCInetFoundation [no-]import`
-//    toggle public:   `mulle-sourcetree mark MulleObjCInetFoundation [no-]public`
-//    toggle optional: `mulle-sourcetree mark MulleObjCInetFoundation [no-]require`
-//    remove for os:   `mulle-sourcetree mark MulleObjCInetFoundation no-os-<osname>`
-# import <MulleObjCInetFoundation/MulleObjCInetFoundation.h>   // MulleObjCInetFoundation
+//    remove:             `mulle-sourcetree mark MulleObjCInetFoundation no-header`
+//    rename:             `mulle-sde dependency|library set MulleObjCInetFoundation include whatever.h`
+//    toggle #import:     `mulle-sourcetree mark MulleObjCInetFoundation [no-]import`
+//    toggle localheader: `mulle-sourcetree mark MulleObjCInetFoundation [no-]localheader`
+//    toggle public:      `mulle-sourcetree mark MulleObjCInetFoundation [no-]public`
+//    toggle optional:    `mulle-sourcetree mark MulleObjCInetFoundation [no-]require`
+//    remove for os:      `mulle-sourcetree mark MulleObjCInetFoundation no-os-<osname>`
+# if defined( __has_include) && __has_include("MulleObjCInetFoundation.h")
+#   import "MulleObjCInetFoundation.h"   // MulleObjCInetFoundation
+# else
+#   import <MulleObjCInetFoundation/MulleObjCInetFoundation.h>   // MulleObjCInetFoundation
+# endif
 
 // How to tweak the following MulleObjCJSMNFoundation #import
-//    remove:          `mulle-sourcetree mark MulleObjCJSMNFoundation no-header`
-//    rename:          `mulle-sourcetree mark MulleObjCJSMNFoundation set include whatever.h`
-//    toggle #import:  `mulle-sourcetree mark MulleObjCJSMNFoundation [no-]import`
-//    toggle public:   `mulle-sourcetree mark MulleObjCJSMNFoundation [no-]public`
-//    toggle optional: `mulle-sourcetree mark MulleObjCJSMNFoundation [no-]require`
-//    remove for os:   `mulle-sourcetree mark MulleObjCJSMNFoundation no-os-<osname>`
-# import <MulleObjCJSMNFoundation/MulleObjCJSMNFoundation.h>   // MulleObjCJSMNFoundation
+//    remove:             `mulle-sourcetree mark MulleObjCJSMNFoundation no-header`
+//    rename:             `mulle-sde dependency|library set MulleObjCJSMNFoundation include whatever.h`
+//    toggle #import:     `mulle-sourcetree mark MulleObjCJSMNFoundation [no-]import`
+//    toggle localheader: `mulle-sourcetree mark MulleObjCJSMNFoundation [no-]localheader`
+//    toggle public:      `mulle-sourcetree mark MulleObjCJSMNFoundation [no-]public`
+//    toggle optional:    `mulle-sourcetree mark MulleObjCJSMNFoundation [no-]require`
+//    remove for os:      `mulle-sourcetree mark MulleObjCJSMNFoundation no-os-<osname>`
+# if defined( __has_include) && __has_include("MulleObjCJSMNFoundation.h")
+#   import "MulleObjCJSMNFoundation.h"   // MulleObjCJSMNFoundation
+# else
+#   import <MulleObjCJSMNFoundation/MulleObjCJSMNFoundation.h>   // MulleObjCJSMNFoundation
+# endif
 
 // How to tweak the following MulleObjCHTTPFoundation #import
-//    remove:          `mulle-sourcetree mark MulleObjCHTTPFoundation no-header`
-//    rename:          `mulle-sourcetree mark MulleObjCHTTPFoundation set include whatever.h`
-//    toggle #import:  `mulle-sourcetree mark MulleObjCHTTPFoundation [no-]import`
-//    toggle public:   `mulle-sourcetree mark MulleObjCHTTPFoundation [no-]public`
-//    toggle optional: `mulle-sourcetree mark MulleObjCHTTPFoundation [no-]require`
-//    remove for os:   `mulle-sourcetree mark MulleObjCHTTPFoundation no-os-<osname>`
-# import <MulleObjCHTTPFoundation/MulleObjCHTTPFoundation.h>   // MulleObjCHTTPFoundation
+//    remove:             `mulle-sourcetree mark MulleObjCHTTPFoundation no-header`
+//    rename:             `mulle-sde dependency|library set MulleObjCHTTPFoundation include whatever.h`
+//    toggle #import:     `mulle-sourcetree mark MulleObjCHTTPFoundation [no-]import`
+//    toggle localheader: `mulle-sourcetree mark MulleObjCHTTPFoundation [no-]localheader`
+//    toggle public:      `mulle-sourcetree mark MulleObjCHTTPFoundation [no-]public`
+//    toggle optional:    `mulle-sourcetree mark MulleObjCHTTPFoundation [no-]require`
+//    remove for os:      `mulle-sourcetree mark MulleObjCHTTPFoundation no-os-<osname>`
+# if defined( __has_include) && __has_include("MulleObjCHTTPFoundation.h")
+#   import "MulleObjCHTTPFoundation.h"   // MulleObjCHTTPFoundation
+# else
+#   import <MulleObjCHTTPFoundation/MulleObjCHTTPFoundation.h>   // MulleObjCHTTPFoundation
+# endif
 
-#include "_MulleWebClient-include.h"
+#ifdef __has_include
+# if __has_include( "_MulleWebClient-include.h")
+#  include "_MulleWebClient-include.h"
+# endif
+#endif
 
 
 #endif
