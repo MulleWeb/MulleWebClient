@@ -50,7 +50,7 @@
    data = [curl userInfo];
    if( ! data)
    {
-      data = [NSMutableData data];
+      data = [NSMutableData object];
       [curl setUserInfo:data];
    }
    [data appendBytes:bytes

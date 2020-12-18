@@ -8,7 +8,7 @@ endif()
 
 #
 # Generated from sourcetree: MulleCurl;no-singlephase;
-# Disable with: `mulle-sourcetree mark MulleCurl no-link`
+# Disable with: `mulle-sourcetree mark MulleCurl no-header`
 #
 if( NOT MULLE_CURL_LIBRARY)
    find_library( MULLE_CURL_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleCurl${CMAKE_STATIC_LIBRARY_SUFFIX} MulleCurl NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
@@ -93,7 +93,7 @@ endif()
 
 #
 # Generated from sourcetree: MulleObjCInetFoundation;no-singlephase;
-# Disable with: `mulle-sourcetree mark MulleObjCInetFoundation no-link`
+# Disable with: `mulle-sourcetree mark MulleObjCInetFoundation no-header`
 #
 if( NOT MULLE_OBJC_INET_FOUNDATION_LIBRARY)
    find_library( MULLE_OBJC_INET_FOUNDATION_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCInetFoundation${CMAKE_STATIC_LIBRARY_SUFFIX} MulleObjCInetFoundation NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
@@ -178,7 +178,7 @@ endif()
 
 #
 # Generated from sourcetree: MulleObjCJSMNFoundation;no-singlephase;
-# Disable with: `mulle-sourcetree mark MulleObjCJSMNFoundation no-link`
+# Disable with: `mulle-sourcetree mark MulleObjCJSMNFoundation no-header`
 #
 if( NOT MULLE_OBJC_JSMN_FOUNDATION_LIBRARY)
    find_library( MULLE_OBJC_JSMN_FOUNDATION_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCJSMNFoundation${CMAKE_STATIC_LIBRARY_SUFFIX} MulleObjCJSMNFoundation NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
@@ -263,7 +263,7 @@ endif()
 
 #
 # Generated from sourcetree: MulleObjCHTTPFoundation;no-singlephase;
-# Disable with: `mulle-sourcetree mark MulleObjCHTTPFoundation no-link`
+# Disable with: `mulle-sourcetree mark MulleObjCHTTPFoundation no-header`
 #
 if( NOT MULLE_OBJC_HTTP_FOUNDATION_LIBRARY)
    find_library( MULLE_OBJC_HTTP_FOUNDATION_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCHTTPFoundation${CMAKE_STATIC_LIBRARY_SUFFIX} MulleObjCHTTPFoundation NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
