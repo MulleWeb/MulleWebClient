@@ -1,0 +1,19 @@
+{
+   "name" : "MulleWebClient",
+   "version" : "0.0.3",
+   "description" : "🕷 Web client library for mulle-objc",
+   "homepage" : "https://github.com/MulleWeb/MulleWebClient",
+   "bugs" : "https://github.com/MulleWeb/MulleWebClient/issues",
+   "keywords" : [],
+   "license" : "UNLICENSED",
+   "repository" : {
+      "type" : "git",
+      "url" : "MulleWeb/MulleWebClient"
+   },
+   "dependencies" : {
+      "MulleCurl" : "MulleWeb/MulleCurl",
+      "MulleObjCInetFoundation" : "MulleWeb/MulleObjCInetFoundation",
+      "MulleObjCJSMNFoundation" : "MulleWeb/MulleObjCJSMNFoundation",
+      "MulleObjCHTTPFoundation" : "MulleWeb/MulleObjCHTTPFoundation"
+   }
+}
