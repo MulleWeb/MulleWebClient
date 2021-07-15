@@ -7,10 +7,6 @@ This is a small Web client library written for the MulleFoundation.
 It contains a HTTP client library and support for JSON. It is experimental
 at this stage.
 
-Build Status | Release Version
--------------|-----------------------------------
-[![Build Status](https://travis-ci.org/MulleWeb/MulleWebClient.svg?branch=release)](https://travis-ci.org/MulleWeb/MulleWebClient) | ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleWebClient.svg) [![Build Status](https://travis-ci.org/MulleWeb/MulleWebClient.svg?branch=release)](https://travis-ci.org/MulleWeb/MulleWebClient)
-
 
 ## About
 
@@ -22,7 +18,25 @@ NSDictionary   *dictionary;
 
 dictionary = [MulleCurl JSONContentsOfURLWithString:@"https://some.url/foo.json"];
 ```
+### You are here
 
+```
+  .================================================.
+  | MulleWebClient                                 |
+  '================================================'
+                    .------------..----------------.
+                    | JSMN       || HTTP           |
+                    '------------''----------------'
+  .----------------..------------..----------------.
+  | Curl           || Plist      || Inet           |
+  '----------------''------------''----------------'
+  .---------..-----------------------------.
+  | Zlib    || Standard                    |
+  '---------''-----------------------------'
+  .----------------------------------------..------.
+  | Value                                  || Lock |
+  '----------------------------------------''------'
+```
 
 ## Add
 

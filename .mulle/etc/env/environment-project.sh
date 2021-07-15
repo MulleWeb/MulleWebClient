@@ -7,19 +7,19 @@ export PROJECT_NAME="MulleWebClient"
 #
 #
 #
-export PROJECT_IDENTIFIER="MulleWebClient"
 
-
-#
-#
-#
-export PROJECT_DOWNCASE_IDENTIFIER="mulle_web_client"
 
 
 #
 #
 #
-export PROJECT_UPCASE_IDENTIFIER="MULLE_WEB_CLIENT"
+
+
+
+#
+#
+#
+
 
 
 #
