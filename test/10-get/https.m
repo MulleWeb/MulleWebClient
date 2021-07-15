@@ -28,6 +28,6 @@ int  main( void)
       return( 1);
    }
 
-   printf( "%.*s", (int) [data length], [data bytes]);
+   printf( "%.*s", (int) [data length], (char *) [data bytes]);
    return( 0);
 }

@@ -2,11 +2,12 @@ HTTP/1.1 200 OK
 (
     Date,
     Server,
+    "Strict-Transport-Security",
     "Last-Modified",
     ETag,
     "Accept-Ranges",
     "Content-Length",
     "Content-Type"
 )
-7 headers
+8 headers
 413 bytes in body
