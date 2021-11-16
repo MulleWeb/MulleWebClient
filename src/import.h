@@ -16,5 +16,9 @@
  */
 
 #import "_MulleWebClient-import.h"
+#ifndef MULLE_WEB_CLIENT_EXTERN_GLOBAL
+# define MULLE_WEB_CLIENT_EXTERN_GLOBAL MULLE_C_EXTERN_GLOBAL
+#endif
+
 
 /* You can add some more import statements here */
