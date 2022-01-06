@@ -57,5 +57,6 @@ src/MulleHTTPHeaderParser+MulleCurlParser.h
 src/MulleJSMNParser+MulleCurlParser.h
 src/MulleObjCLoader+MulleWebClient.h
 src/MulleWebClient.h
+src/reflect/_MulleWebClient-versioncheck.h
 )
 
