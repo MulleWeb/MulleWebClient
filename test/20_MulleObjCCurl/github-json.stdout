@@ -85,7 +85,7 @@
     },
     {
         "avatar_url" = "https://xxx.github.com/u/44543973\?v=4";
-        description = "C libraries based on mulle-c and mulle-concurrent";
+        description = "C libraries based on mulle-c and mulle-concurrent and system calls";
         "events_url" = "https://xxx.github.com/orgs/mulle-core/events";
         "hooks_url" = "https://xxx.github.com/orgs/mulle-core/hooks";
         id = 44543973;
