@@ -3,7 +3,7 @@
  *   Any edits will be lost.
  */
 #if defined( MULLE_CURL_VERSION)
-# if MULLE_CURL_VERSION < ((0 << 20) | (17 << 8) | 5)
+# if MULLE_CURL_VERSION < ((0 << 20) | (17 << 8) | 6)
 #  error "MulleCurl is too old"
 # endif
 # if MULLE_CURL_VERSION >= ((0 << 20) | (18 << 8) | 0)
@@ -12,7 +12,7 @@
 #endif
 
 #if defined( MULLE_OBJC_HTTP_FOUNDATION_VERSION)
-# if MULLE_OBJC_HTTP_FOUNDATION_VERSION < ((0 << 20) | (18 << 8) | 2)
+# if MULLE_OBJC_HTTP_FOUNDATION_VERSION < ((0 << 20) | (18 << 8) | 3)
 #  error "MulleObjCHTTPFoundation is too old"
 # endif
 # if MULLE_OBJC_HTTP_FOUNDATION_VERSION >= ((0 << 20) | (19 << 8) | 0)
@@ -21,7 +21,7 @@
 #endif
 
 #if defined( MULLE_OBJC_INET_FOUNDATION_VERSION)
-# if MULLE_OBJC_INET_FOUNDATION_VERSION < ((0 << 20) | (18 << 8) | 2)
+# if MULLE_OBJC_INET_FOUNDATION_VERSION < ((0 << 20) | (18 << 8) | 3)
 #  error "MulleObjCInetFoundation is too old"
 # endif
 # if MULLE_OBJC_INET_FOUNDATION_VERSION >= ((0 << 20) | (19 << 8) | 0)
@@ -30,7 +30,7 @@
 #endif
 
 #if defined( MULLE_OBJC_JSMN_FOUNDATION_VERSION)
-# if MULLE_OBJC_JSMN_FOUNDATION_VERSION < ((0 << 20) | (18 << 8) | 2)
+# if MULLE_OBJC_JSMN_FOUNDATION_VERSION < ((0 << 20) | (18 << 8) | 3)
 #  error "MulleObjCJSMNFoundation is too old"
 # endif
 # if MULLE_OBJC_JSMN_FOUNDATION_VERSION >= ((0 << 20) | (19 << 8) | 0)
