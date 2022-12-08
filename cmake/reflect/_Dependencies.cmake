@@ -15,6 +15,7 @@ endif()
 # Generated from sourcetree: 3EEF6B21-F716-4F6D-8439-E0C6B0F31F1A;MulleCurl;no-singlephase;
 # Disable with : `mulle-sourcetree mark MulleCurl no-link`
 # Disable for this platform: `mulle-sourcetree mark MulleCurl no-cmake-platform-${MULLE_UNAME}`
+# Disable for a sdk: `mulle-sourcetree mark MulleCurl no-cmake-sdk-<name>`
 #
 if( NOT MULLE_CURL_LIBRARY)
    find_library( MULLE_CURL_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleCurl${CMAKE_DEBUG_POSTFIX}${CMAKE_STATIC_LIBRARY_SUFFIX} ${CMAKE_STATIC_LIBRARY_PREFIX}MulleCurl${CMAKE_STATIC_LIBRARY_SUFFIX} MulleCurl NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
@@ -95,6 +96,7 @@ endif()
 # Generated from sourcetree: 96432DD6-5F89-4189-AEFD-87300A0D1BE7;MulleObjCInetFoundation;no-singlephase;
 # Disable with : `mulle-sourcetree mark MulleObjCInetFoundation no-link`
 # Disable for this platform: `mulle-sourcetree mark MulleObjCInetFoundation no-cmake-platform-${MULLE_UNAME}`
+# Disable for a sdk: `mulle-sourcetree mark MulleObjCInetFoundation no-cmake-sdk-<name>`
 #
 if( NOT MULLE_OBJC_INET_FOUNDATION_LIBRARY)
    find_library( MULLE_OBJC_INET_FOUNDATION_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCInetFoundation${CMAKE_DEBUG_POSTFIX}${CMAKE_STATIC_LIBRARY_SUFFIX} ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCInetFoundation${CMAKE_STATIC_LIBRARY_SUFFIX} MulleObjCInetFoundation NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
@@ -175,6 +177,7 @@ endif()
 # Generated from sourcetree: 826EAAA9-2883-4BB3-B7BA-00AE3E9970FD;MulleObjCJSMNFoundation;no-singlephase;
 # Disable with : `mulle-sourcetree mark MulleObjCJSMNFoundation no-link`
 # Disable for this platform: `mulle-sourcetree mark MulleObjCJSMNFoundation no-cmake-platform-${MULLE_UNAME}`
+# Disable for a sdk: `mulle-sourcetree mark MulleObjCJSMNFoundation no-cmake-sdk-<name>`
 #
 if( NOT MULLE_OBJC_JSMN_FOUNDATION_LIBRARY)
    find_library( MULLE_OBJC_JSMN_FOUNDATION_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCJSMNFoundation${CMAKE_DEBUG_POSTFIX}${CMAKE_STATIC_LIBRARY_SUFFIX} ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCJSMNFoundation${CMAKE_STATIC_LIBRARY_SUFFIX} MulleObjCJSMNFoundation NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
@@ -255,6 +258,7 @@ endif()
 # Generated from sourcetree: 3d1dad4d-4759-4c1c-9349-ee9751b64f9c;MulleObjCHTTPFoundation;no-singlephase;
 # Disable with : `mulle-sourcetree mark MulleObjCHTTPFoundation no-link`
 # Disable for this platform: `mulle-sourcetree mark MulleObjCHTTPFoundation no-cmake-platform-${MULLE_UNAME}`
+# Disable for a sdk: `mulle-sourcetree mark MulleObjCHTTPFoundation no-cmake-sdk-<name>`
 #
 if( NOT MULLE_OBJC_HTTP_FOUNDATION_LIBRARY)
    find_library( MULLE_OBJC_HTTP_FOUNDATION_LIBRARY NAMES ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCHTTPFoundation${CMAKE_DEBUG_POSTFIX}${CMAKE_STATIC_LIBRARY_SUFFIX} ${CMAKE_STATIC_LIBRARY_PREFIX}MulleObjCHTTPFoundation${CMAKE_STATIC_LIBRARY_SUFFIX} MulleObjCHTTPFoundation NO_CMAKE_SYSTEM_PATH NO_SYSTEM_ENVIRONMENT_PATH)
