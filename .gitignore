@@ -32,3 +32,4 @@ test*/**/*.exe
 .gdb_history
 .mulle-make-build-dir
 version.old
+.ackrc

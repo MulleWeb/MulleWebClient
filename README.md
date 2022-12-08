@@ -13,7 +13,7 @@ at this stage.
 
 Retrieval of a `NSDictionary` from a JSON source can be as easy as:
 
-```
+``` objc
 NSDictionary   *dictionary;
 
 dictionary = [MulleCurl JSONContentsOfURLWithString:@"https://some.url/foo.json"];
@@ -28,7 +28,7 @@ dictionary = [MulleCurl JSONContentsOfURLWithString:@"https://some.url/foo.json"
 
 Use [mulle-sde](//github.com/mulle-sde) to add MulleWebClient to your project:
 
-```
+``` sh
 mulle-sde dependency add --objc --github MulleWeb MulleWebClient
 ```
 
@@ -37,7 +37,7 @@ mulle-sde dependency add --objc --github MulleWeb MulleWebClient
 Use [mulle-sde](//github.com/mulle-sde) to build and install MulleWebClient and
 all its dependencies:
 
-```
+``` sh
 mulle-sde install --objc --prefix /usr/local \
    https://github.com/MulleWeb/MulleWebClient/archive/latest.tar.gz
 ```
