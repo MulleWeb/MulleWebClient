@@ -1,13 +1,8 @@
       { @selector( MulleObjCLoader), @selector( MulleCurl) },      // 47a9beb6;MulleObjCLoader;9714448a;MulleCurl
-      { @selector( MulleObjCLoader), @selector( MulleObjCContainerFoundation) },      // 47a9beb6;MulleObjCLoader;2132102f;MulleObjCContainerFoundation
+      { @selector( MulleObjCLoader), @selector( MulleFoundationBase) },      // 47a9beb6;MulleObjCLoader;efab19ea;MulleFoundationBase
       { @selector( MulleObjCLoader), @selector( MulleObjCHTTPFoundation) },      // 47a9beb6;MulleObjCLoader;457d3115;MulleObjCHTTPFoundation
       { @selector( MulleObjCLoader), @selector( MulleObjCInetFoundation) },      // 47a9beb6;MulleObjCLoader;088ec1b3;MulleObjCInetFoundation
       { @selector( MulleObjCLoader), @selector( MulleObjCJSMNFoundation) },      // 47a9beb6;MulleObjCLoader;383fe71a;MulleObjCJSMNFoundation
-      { @selector( MulleObjCLoader), @selector( MulleObjCLockFoundation) },      // 47a9beb6;MulleObjCLoader;86a97828;MulleObjCLockFoundation
-      { @selector( MulleObjCLoader), @selector( MulleObjCPlistFoundation) },      // 47a9beb6;MulleObjCLoader;e8aa8d92;MulleObjCPlistFoundation
-      { @selector( MulleObjCLoader), @selector( MulleObjCStandardFoundation) },      // 47a9beb6;MulleObjCLoader;ed704a42;MulleObjCStandardFoundation
-      { @selector( MulleObjCLoader), @selector( MulleObjCTimeFoundation) },      // 47a9beb6;MulleObjCLoader;cc20d48b;MulleObjCTimeFoundation
-      { @selector( MulleObjCLoader), @selector( MulleObjCValueFoundation) },      // 47a9beb6;MulleObjCLoader;535d5103;MulleObjCValueFoundation
       { @selector( MulleCurl), @selector( JSON) },      // 9714448a;MulleCurl;fbd7fc3d;JSON
       { @selector( MulleCurl), @selector( NSURL) },      // 9714448a;MulleCurl;6b1e8f73;NSURL
       { @selector( MulleHTTPHeaderParser), @selector( MulleCurlParser) },      // 33ba7405;MulleHTTPHeaderParser;3ef706fe;MulleCurlParser
