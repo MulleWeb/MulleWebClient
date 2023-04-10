@@ -1,0 +1,10 @@
+## About
+
+Retrieval of a `NSDictionary` from a JSON source can be as easy as:
+
+``` objc
+NSDictionary   *dictionary;
+
+dictionary = [MulleCurl JSONContentsOfURLWithString:@"https://some.url/foo.json"];
+```
+

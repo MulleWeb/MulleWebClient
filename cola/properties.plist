@@ -1,0 +1,55 @@
+{
+   project =
+   {
+      description="🕷 Web client library for mulle-objc";
+      domain="github";
+      name="MulleWebClient";
+      user="MulleWeb";
+      repo="MulleWebClient";
+      homepage="https://github.com/MulleWeb/MulleWebClient";
+      license="BSD-3-Clause"
+   };
+   dependencies =
+   (
+      {
+         description="🥌 HTTP client library for mulle-objc";
+         domain="github";
+         name="MulleCurl";
+         repo="MulleCurl";
+         url="https://github.com/MulleWeb/MulleCurl";
+         user="MulleWeb";
+      },
+      {
+         description="📠 Internet-related classes like NSHost and NSURL for mulle-objc";
+         domain="github";
+         name="MulleObjCInetFoundation";
+         repo="MulleObjCInetFoundation";
+         url="https://github.com/MulleWeb/MulleObjCInetFoundation";
+         user="MulleWeb";
+      },
+      {
+         description="🌼 JSON support for mulle-objc";
+         domain="github";
+         name="MulleObjCJSMNFoundation";
+         repo="MulleObjCJSMNFoundation";
+         url="https://github.com/MulleWeb/MulleObjCJSMNFoundation";
+         user="MulleWeb";
+      },
+      {
+         description="🎫 HTTP and HTML utility methods and classes for mulle-objc";
+         domain="github";
+         name="MulleObjCHTTPFoundation";
+         repo="MulleObjCHTTPFoundation";
+         url="https://github.com/MulleWeb/MulleObjCHTTPFoundation";
+         user="MulleWeb";
+      },
+      {
+         description="📒 Lists mulle-objc runtime information contained in executables.";
+         domain="github";
+         name="mulle-objc-list";
+         repo="mulle-objc-list";
+         url="https://github.com/mulle-objc/mulle-objc-list";
+         user="mulle-objc";
+      }
+   )
+}

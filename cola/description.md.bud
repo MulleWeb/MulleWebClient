@@ -1,0 +1,6 @@
+This is a small Web client library written for the MulleFoundation.
+
+It contains a HTTP client library and support for JSON. It is experimental
+at this stage.
+
+
