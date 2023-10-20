@@ -54,10 +54,19 @@ mulle-sde install --prefix /usr/local \
 
 ### Manual Installation
 
-Install the [requirements](#Overview) and then install
-**MulleWebClient**
-with [cmake](https://cmake.org). Here `/usr/local` is chosen as the install
-prefix:
+Install the requirements:
+
+| Requirements                                 | Description
+|----------------------------------------------|-----------------------
+| [MulleCurl](https://github.com/MulleWeb/MulleCurl)             | 🥌 HTTP client library for mulle-objc
+| [MulleObjCInetFoundation](https://github.com/MulleWeb/MulleObjCInetFoundation)             | 📠 Internet-related classes like NSHost and NSURL for mulle-objc
+| [MulleObjCJSMNFoundation](https://github.com/MulleWeb/MulleObjCJSMNFoundation)             | 🌼 JSON support for mulle-objc
+| [MulleObjCHTTPFoundation](https://github.com/MulleWeb/MulleObjCHTTPFoundation)             | 🎫 HTTP and HTML utility methods and classes for mulle-objc
+| [mulle-objc-list](https://github.com/mulle-objc/mulle-objc-list)             | 📒 Lists mulle-objc runtime information contained in executables.
+
+Download the latest [tar](https://github.com/MulleWeb/MulleWebClient/archive/refs/tags/latest.tar.gz) or [zip](https://github.com/MulleWeb/MulleWebClient/archive/refs/tags/latest.zip) archive and unpack it.
+
+Install **MulleWebClient** into `/usr/local` with [cmake](https://cmake.org):
 
 ``` sh
 cmake -B build \
