@@ -1,7 +1,6 @@
 # MulleWebClient
 
-#### 🕷 Web client library for mulle-objc
-
+#### 🕷  Web client library for mulle-objc
 
 This is a small Web client library written for the MulleFoundation.
 
@@ -10,9 +9,10 @@ at this stage.
 
 
 
+
 | Release Version                                       | Release Notes
 |-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag//MulleWebClient.svg?branch=release) [![Build Status](https://github.com//MulleWebClient/workflows/CI/badge.svg?branch=release)](//github.com//MulleWebClient/actions)| [RELEASENOTES](RELEASENOTES.md) |
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleWebClient.svg?branch=release) [![Build Status](https://github.com/MulleWeb/MulleWebClient/workflows/CI/badge.svg?branch=release)](//github.com/MulleWeb/MulleWebClient/actions) | [RELEASENOTES](RELEASENOTES.md) |
 
 
 
@@ -21,16 +21,9 @@ at this stage.
 
 
 
-## Overview
+### You are here
+
 ![Overview](overview.dot.svg)
-
-| Requirement                                  | Description
-|----------------------------------------------|-----------------------
-| [MulleCurl](https://github.com/MulleWeb/MulleCurl)             | 🥌 HTTP client library for mulle-objc
-| [MulleObjCInetFoundation](https://github.com/MulleWeb/MulleObjCInetFoundation)             | 📠 Internet-related classes like NSHost and NSURL for mulle-objc
-| [MulleObjCJSMNFoundation](https://github.com/MulleWeb/MulleObjCJSMNFoundation)             | 🌼 JSON support for mulle-objc
-| [MulleObjCHTTPFoundation](https://github.com/MulleWeb/MulleObjCHTTPFoundation)             | 🎫 HTTP and HTML utility methods and classes for mulle-objc
-| [mulle-objc-list](https://github.com/mulle-objc/mulle-objc-list)             | 📒 Lists mulle-objc runtime information contained in executables.
 
 
 ## Add
@@ -77,7 +70,7 @@ cmake --build build --config Release &&
 cmake --install build --config Release
 ```
 
-## Platforms and Compilers
+### Platforms and Compilers
 
 All platforms and compilers supported by
 [mulle-c11](//github.com/mulle-c/mulle-c11).
@@ -85,5 +78,5 @@ All platforms and compilers supported by
 
 ## Author
 
-[Nat!](https://mulle-kybernetik.com/weblog) for Mulle kybernetiK
+[Nat!](https://mulle-kybernetik.com/weblog) for Mulle kybernetiK  
 

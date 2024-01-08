@@ -1,0 +1,39 @@
+{
+   "name" : "MulleWebClient",
+   "version" : "0.0.10",
+   "description" : "🕷  Web client library for mulle-objc",
+   "keywords" : [],
+   "license" : "BSD-3-Clause",
+   "repo" : "MulleWeb/MulleWebClient",
+   "src" : [
+      "src/generic/import-private.h",
+      "src/generic/import.h",
+      "src/MulleCurl+JSON.h",
+      "src/MulleCurl+JSON.m",
+      "src/MulleCurl+NSURL.h",
+      "src/MulleCurl+NSURL.m",
+      "src/MulleHTTPHeaderParser+MulleCurlParser.h",
+      "src/MulleHTTPHeaderParser+MulleCurlParser.m",
+      "src/MulleJSMNParser+MulleCurlParser.h",
+      "src/MulleJSMNParser+MulleCurlParser.m",
+      "src/MulleObjCLoader+MulleWebClient.h",
+      "src/MulleObjCLoader+MulleWebClient.m",
+      "src/MulleWebClient.h",
+      "src/MulleWebClient.m",
+      "src/reflect/objc-loader.inc",
+      "src/reflect/_MulleWebClient-export.h",
+      "src/reflect/_MulleWebClient-import-private.h",
+      "src/reflect/_MulleWebClient-import.h",
+      "src/reflect/_MulleWebClient-include-private.h",
+      "src/reflect/_MulleWebClient-include.h",
+      "src/reflect/_MulleWebClient-provide.h",
+      "src/reflect/_MulleWebClient-versioncheck.h"
+   ],
+   "dependencies" : {
+      "MulleWeb/MulleCurl": "*",
+      "MulleWeb/MulleObjCInetFoundation": "*",
+      "MulleWeb/MulleObjCJSMNFoundation": "*",
+      "MulleWeb/MulleObjCHTTPFoundation": "*",
+      "mulle-objc/mulle-objc-list": "*"
+   }
+}

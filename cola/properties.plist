@@ -1,7 +1,7 @@
 {
    project =
    {
-      description="🕷 Web client library for mulle-objc";
+      description="🕷  Web client library for mulle-objc";
       domain="github";
       name="MulleWebClient";
       user="MulleWeb";
