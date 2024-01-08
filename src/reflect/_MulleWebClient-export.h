@@ -9,8 +9,8 @@
  *
  *      mulle-sde environment set MULLE_MATCH_TO_C_RUN DISABLE
  */
-#ifndef mulle_web_client_export_h__
-#define mulle_web_client_export_h__
+#ifndef _mulle_web_client__export_h__
+#define _mulle_web_client__export_h__
 
 
 #import "MulleCurl+JSON.h"
