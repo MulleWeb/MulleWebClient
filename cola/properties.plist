@@ -7,7 +7,7 @@
       user="MulleWeb";
       repo="MulleWebClient";
       homepage="https://github.com/MulleWeb/MulleWebClient";
-      license="BSD-3-Clause"
+      license="BSD-3-Clause";
    };
    dependencies =
    (
@@ -51,5 +51,5 @@
          url="https://github.com/mulle-objc/mulle-objc-list";
          user="mulle-objc";
       }
-   )
+   );
 }
