@@ -78,7 +78,7 @@
 <!-- curl -->
 <g id="node2" class="node">
 <title>curl</title>
-<g id="a_node2"><a xlink:href="https://unknown.com/" xlink:title="curl">
+<g id="a_node2"><a xlink:href="https://curl.haxx.se//curl" xlink:title="curl">
 <polygon fill="lightgrey" stroke="black" points="1409,-108 1355,-108 1355,-72 1409,-72 1409,-108"/>
 <text text-anchor="middle" x="1382" y="-86.3" font-family="Times,serif" font-size="14.00">curl</text>
 </a>
@@ -132,7 +132,7 @@
 <!-- openssl -->
 <g id="node7" class="node">
 <title>openssl</title>
-<g id="a_node7"><a xlink:href="https://unknown.com/" xlink:title="openssl">
+<g id="a_node7"><a xlink:href="https://github.com/openssl/openssl" xlink:title="openssl">
 <polygon fill="lightgrey" stroke="black" points="1791.5,-108 1720.5,-108 1720.5,-72 1791.5,-72 1791.5,-108"/>
 <text text-anchor="middle" x="1756" y="-86.3" font-family="Times,serif" font-size="14.00">openssl</text>
 </a>
