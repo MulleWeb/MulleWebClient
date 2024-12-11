@@ -12,7 +12,7 @@ at this stage.
 
 | Release Version                                       | Release Notes
 |-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleWebClient.svg?branch=release) [![Build Status](https://github.com/MulleWeb/MulleWebClient/workflows/CI/badge.svg?branch=release)](//github.com/MulleWeb/MulleWebClient/actions) | [RELEASENOTES](RELEASENOTES.md) |
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleWebClient.svg) [![Build Status](https://github.com/MulleWeb/MulleWebClient/workflows/CI/badge.svg)](//github.com/MulleWeb/MulleWebClient/actions) | [RELEASENOTES](RELEASENOTES.md) |
 
 
 
