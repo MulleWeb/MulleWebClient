@@ -8,6 +8,7 @@
       repo="MulleWebClient";
       homepage="https://github.com/MulleWeb/MulleWebClient";
       license="BSD-3-Clause";
+      version="0.0.13";
    };
    dependencies =
    (

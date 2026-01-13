@@ -1,6 +1,6 @@
 {
    "name" : "MulleWebClient",
-   "version" : "0.0.10",
+   "version" : "0.0.13",
    "description" : "🕷  Web client library for mulle-objc",
    "keywords" : [],
    "license" : "BSD-3-Clause",
