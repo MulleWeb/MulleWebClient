@@ -17,7 +17,7 @@
 #import "MulleCurl+NSURL.h"
 #import "MulleHTTPHeaderParser+MulleCurlParser.h"
 #import "MulleJSMNParser+MulleCurlParser.h"
-#import "MulleObjCLoader+MulleWebClient.h"
+#import "MulleObjCDeps+MulleWebClient.h"
 
 
 #endif
