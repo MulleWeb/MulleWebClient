@@ -19,7 +19,7 @@
 //    remove #import      : `mulle-sde dependency mark MulleCurl no-header`
 //    rename              : `mulle-sde dependency|library set MulleCurl include whatever.h`
 //    reorder             : `mulle-sde dependency move MulleCurl <up|down>`
-//    toggle #import      : `mulle-sde dependency mark MulleCurl [no-]import`
+//    toggle objc         : `mulle-sde dependency mark MulleCurl [no-]import`
 //    toggle public       : `mulle-sde dependency mark MulleCurl [no-]public`
 //    toggle optional     : `mulle-sde dependency mark MulleCurl [no-]require`
 //    remove for platform : `mulle-sde dependency mark MulleCurl no-platform-<uname>`
@@ -34,7 +34,7 @@
 //    remove #import      : `mulle-sde dependency mark MulleObjCInetFoundation no-header`
 //    rename              : `mulle-sde dependency|library set MulleObjCInetFoundation include whatever.h`
 //    reorder             : `mulle-sde dependency move MulleObjCInetFoundation <up|down>`
-//    toggle #import      : `mulle-sde dependency mark MulleObjCInetFoundation [no-]import`
+//    toggle objc         : `mulle-sde dependency mark MulleObjCInetFoundation [no-]import`
 //    toggle public       : `mulle-sde dependency mark MulleObjCInetFoundation [no-]public`
 //    toggle optional     : `mulle-sde dependency mark MulleObjCInetFoundation [no-]require`
 //    remove for platform : `mulle-sde dependency mark MulleObjCInetFoundation no-platform-<uname>`
@@ -49,7 +49,7 @@
 //    remove #import      : `mulle-sde dependency mark MulleObjCJSMNFoundation no-header`
 //    rename              : `mulle-sde dependency|library set MulleObjCJSMNFoundation include whatever.h`
 //    reorder             : `mulle-sde dependency move MulleObjCJSMNFoundation <up|down>`
-//    toggle #import      : `mulle-sde dependency mark MulleObjCJSMNFoundation [no-]import`
+//    toggle objc         : `mulle-sde dependency mark MulleObjCJSMNFoundation [no-]import`
 //    toggle public       : `mulle-sde dependency mark MulleObjCJSMNFoundation [no-]public`
 //    toggle optional     : `mulle-sde dependency mark MulleObjCJSMNFoundation [no-]require`
 //    remove for platform : `mulle-sde dependency mark MulleObjCJSMNFoundation no-platform-<uname>`
@@ -64,7 +64,7 @@
 //    remove #import      : `mulle-sde dependency mark MulleObjCHTTPFoundation no-header`
 //    rename              : `mulle-sde dependency|library set MulleObjCHTTPFoundation include whatever.h`
 //    reorder             : `mulle-sde dependency move MulleObjCHTTPFoundation <up|down>`
-//    toggle #import      : `mulle-sde dependency mark MulleObjCHTTPFoundation [no-]import`
+//    toggle objc         : `mulle-sde dependency mark MulleObjCHTTPFoundation [no-]import`
 //    toggle public       : `mulle-sde dependency mark MulleObjCHTTPFoundation [no-]public`
 //    toggle optional     : `mulle-sde dependency mark MulleObjCHTTPFoundation [no-]require`
 //    remove for platform : `mulle-sde dependency mark MulleObjCHTTPFoundation no-platform-<uname>`

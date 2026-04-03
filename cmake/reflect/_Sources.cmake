@@ -22,5 +22,5 @@ src/MulleWebClient.m
 # contents selected with patternfile ??-source--stage2-sources
 #
 set( STAGE2_SOURCES
-src/MulleObjCLoader+MulleWebClient.m
+src/MulleObjCDeps+MulleWebClient.m
 )
