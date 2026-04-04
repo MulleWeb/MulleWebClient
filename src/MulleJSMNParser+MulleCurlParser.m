@@ -44,6 +44,8 @@
    parseBytes:(void *) bytes
        length:(NSUInteger) length
 {
+   MULLE_C_UNUSED( curl);
+
 //   fprintf( stderr, "~~~ Received: %.*s\n", (int) length, bytes);
    NSMutableData   *data;
 
@@ -63,6 +65,8 @@
 // the parsed result
 - (id) parsedObjectWithCurl:(MulleCurl *) curl
 {
+   MULLE_C_UNUSED( curl);
+
    return( [self object]);
 }
 

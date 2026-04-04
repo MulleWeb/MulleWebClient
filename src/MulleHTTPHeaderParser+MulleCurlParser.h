@@ -36,6 +36,8 @@
 //
 #import "import.h"
 
+@protocol MulleCurlParser;
+
 @interface MulleHTTPHeaderParser( MulleCurlParser) <MulleCurlParser>
 @end
 
