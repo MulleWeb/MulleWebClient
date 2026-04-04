@@ -1,51 +1,13 @@
-### 0.0.13
+### 0.0.14
 
-Various small improvements
 
-### 0.0.12
 
-Various small improvements
 
-### 0.0.11
 
-Various small improvements
 
-### 0.0.10
 
-* Various small improvements
 
-### 0.0.9
 
-* Various small improvements
 
-### 0.0.8
-
-* Various small improvements
-
-### 0.0.7
-
-* moved generic headers into src/generic
-
-### 0.0.6
-
-* Various small improvements
-
-### 0.0.5
-
-* Various small improvements
-
-### 0.0.4
-
-* Various small improvements
-
-### 0.0.3
-
-* new mulle-sde project structure
-
-### 0.0.2
-
-* improved README.md
-
-### 0.0.1
-
-* Various small improvements
+* **BREAKING** rename MulleObjCLoader category/header to MulleObjCDeps and replace the generated objc-loader.inc with objc-deps.inc so Objective-C dependency selectors are declared via the new deps manifest
+* loosen/shift dependency version checks to accept newer MulleCurl and adjust JSMN Foundation minimums (updates build compatibility)

@@ -9,14 +9,14 @@ int  main( void)
 {
    MulleCurl               *curl;
    MulleHTTPHeaderParser   *headerParser;
-   NSURL                       *url;
-   NSData                      *data;
-   NSError                     *error;
-   NSArray                     *order;
-   NSDictionary                *headers;
+   NSURL                   *url;
+   NSData                  *data;
+   NSError                 *error;
+   NSArray                 *order;
+   NSDictionary            *headers;
 
-   curl         = [[MulleCurl new] autorelease];
-   headerParser = [[MulleHTTPHeaderParser new] autorelease];
+   curl         = [MulleCurl instance];
+   headerParser = [MulleHTTPHeaderParser instance];
    [headerParser setRecordsOrder:YES];
 
    [curl setDesktopTimeoutOptions];

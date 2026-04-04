@@ -35,6 +35,7 @@ extern uint32_t   MulleWebClient_get_version( void);
    consumers.
 */
 // #import "MyClass.h"
+#import "MulleHTTPHeaderParser+MulleCurlParser.h"
 #import "MulleJSMNParser+MulleCurlParser.h"
 #import "MulleCurl+NSURL.h"
 #import "MulleCurl+JSON.h"
