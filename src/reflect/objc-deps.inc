@@ -1,5 +1,4 @@
       { @selector( MulleObjCDeps), @selector( MulleCurl) },      // 3c20656f;MulleObjCDeps;9714448a;MulleCurl
-      { @selector( MulleObjCDeps), @selector( MulleFoundationBase) },      // 3c20656f;MulleObjCDeps;efab19ea;MulleFoundationBase
       { @selector( MulleObjCDeps), @selector( MulleObjCHTTPFoundation) },      // 3c20656f;MulleObjCDeps;457d3115;MulleObjCHTTPFoundation
       { @selector( MulleObjCDeps), @selector( MulleObjCInetFoundation) },      // 3c20656f;MulleObjCDeps;088ec1b3;MulleObjCInetFoundation
       { @selector( MulleObjCDeps), @selector( MulleObjCJSMNFoundation) },      // 3c20656f;MulleObjCDeps;383fe71a;MulleObjCJSMNFoundation
