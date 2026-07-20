@@ -3,12 +3,13 @@
    {
       description="🕷  Web client library for mulle-objc";
       domain="github";
+      language="c";
+      dialect="objc";
       name="MulleWebClient";
       user="MulleWeb";
       repo="MulleWebClient";
       homepage="https://github.com/MulleWeb/MulleWebClient";
       license="BSD-3-Clause";
-      version="0.0.14";
    };
    dependencies =
    (
