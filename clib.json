@@ -35,6 +35,6 @@
       "MulleWeb/MulleObjCInetFoundation": "*",
       "MulleWeb/MulleObjCJSMNFoundation": "*",
       "MulleWeb/MulleObjCHTTPFoundation": "*",
-      "mulle-objc/mulle-objc-list": "*"
+      "mulle-objc/mulle-objc-tools": "*"
    }
 }
